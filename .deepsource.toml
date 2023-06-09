@@ -1,7 +1,10 @@
 version = 1
 
 [[analyzers]]
-name = "go"
+name = "shell"
+
+[[analyzers]]
+name = "python"
 
   [analyzers.meta]
-  import_root = "github.com/eshaan-test-org/test-monorepo"
+  runtime_version = "3.x.x"
