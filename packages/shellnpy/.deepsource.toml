@@ -1,16 +1,13 @@
 version = 1
 
 [[analyzers]]
-name = "shell"
-
-[[analyzers]]
 name = "python"
 
   [analyzers.meta]
   runtime_version = "3.x.x"
 
-[[transformers]]
-name = "black"
+[[analyzers]]
+name = "shell"
 
 [[transformers]]
-name = "isort"
+name = "black"
