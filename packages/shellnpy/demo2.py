@@ -4,6 +4,6 @@ b = 2
 
 def foo():
     """
-    aaa
+    abc
     """
     pass
