@@ -7,5 +7,6 @@ e =1
 def bar():
   """
   abcd
+  efgh
   """
   pass
