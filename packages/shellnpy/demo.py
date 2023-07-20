@@ -4,6 +4,10 @@ c=3
 d=1
 e =1
 
+
+
+
+
 def bar():
   """
   abcd
