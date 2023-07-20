@@ -7,6 +7,6 @@ e =1
 def bar():
   """
   abcd
-  ef
+  efaa
   """
   pass
