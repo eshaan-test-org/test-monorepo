@@ -4,7 +4,7 @@ version = 1
 name = "go"
 
   [analyzers.meta]
-  import_root = "github.com/eshaan-test-org/test-monorepo/packages/mango"
+  import_root = "github.com/eshaan-test-org/test-monorepo:packages:mango"
 
 [[transformers]]
-name = "gofmt"
+name = "gofumpt"
