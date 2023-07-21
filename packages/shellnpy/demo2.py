@@ -11,3 +11,8 @@ def foo():
   pass
 
 exit(0)
+
+def bar():
+  """
+  """
+  pass
