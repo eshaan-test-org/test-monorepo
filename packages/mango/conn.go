@@ -11,8 +11,6 @@ import (
 )
 
 
-const x := 1
-
 
 
 
