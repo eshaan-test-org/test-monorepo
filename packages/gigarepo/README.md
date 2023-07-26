@@ -17,6 +17,6 @@
 
 ---
 
-# test-monorepo/packages/gigarepo (subrepo)
+# test-monorepo/packages/gigarepo (sub-repository)
 
 This repository demonstrates a sample list of issues detected by DeepSource analyzers.
