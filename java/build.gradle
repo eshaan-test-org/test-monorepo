@@ -1,14 +1,15 @@
 plugins {
     id 'java'
     id 'jacoco'
+//    id 'org.kordamp.gradle.jacoco' version '0.46.0'
 }
 
 group 'org.example'
 version '1.0-SNAPSHOT'
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_11
-    targetCompatibility = JavaVersion.VERSION_11
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
 }
 
 repositories {
@@ -20,6 +21,19 @@ sourceSets {
         java.srcDirs = ['source']
     }
 }
+//
+//config {
+//    coverage {
+//        jacoco {
+//
+//            enabled = true
+//            aggregateReportXmlFile = file("$buildDir/jacocoMerged.xml")
+//
+//        }
+//    }
+//}
+
+
 
 dependencies {
     implementation 'io.github.davidkgp:json-parse:1.0.3'
