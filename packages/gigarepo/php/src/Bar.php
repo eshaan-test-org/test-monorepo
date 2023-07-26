@@ -16,6 +16,9 @@ class Bar
         }
 
         return 'hello';
+
+        return 'again';
+        $greet = 'Hello';
     }
 
     public function catch()

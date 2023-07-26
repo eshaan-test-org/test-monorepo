@@ -1,31 +1,49 @@
 version = 1
 
 [[analyzers]]
-name = "csharp"
+name = "terraform"
 
 [[analyzers]]
-name = "rust"
+name = "sql"
+
+[[analyzers]]
+name = "scala"
+
+[[analyzers]]
+name = "python"
 
   [analyzers.meta]
-  msrv = "1.30.0"
+  runtime_version = "3.x.x"
 
 [[analyzers]]
-name = "php"
-
-[[analyzers]]
-name = "java"
-
-  [analyzers.meta]
-  runtime_version = "11"
+name = "cxx"
 
 [[analyzers]]
 name = "shell"
 
 [[analyzers]]
-name = "javascript"
+name = "rust"
+
+  [analyzers.meta]
+  msrv = "stable"
+
+[[analyzers]]
+name = "php"
+
+[[analyzers]]
+name = "docker"
+
+[[analyzers]]
+name = "secrets"
 
 [[analyzers]]
 name = "ruby"
+
+[[analyzers]]
+name = "javascript"
+
+[[analyzers]]
+name = "csharp"
 
 [[analyzers]]
 name = "go"
@@ -34,7 +52,13 @@ name = "go"
   import_root = "github.com/eshaan-test-org/test-monorepo/packages/gigarepo/go"
 
 [[analyzers]]
-name = "python"
+name = "ansible"
+
+[[analyzers]]
+name = "java"
 
   [analyzers.meta]
-  runtime_version = "3.x.x"
+  runtime_version = "11"
+
+[[analyzers]]
+name = "test-coverage"

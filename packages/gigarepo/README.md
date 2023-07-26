@@ -13,7 +13,6 @@
   DeepSource helps developers ship good code.
 </p>
 
-
 </p>
 
 ---

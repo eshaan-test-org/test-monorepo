@@ -40,7 +40,7 @@ type List struct {
 	Files []string
 }
 
-func (routerCtx) GetImages(w http.ResponseWriter, _ *http.Request) {
+func (c routerCtx) GetImages(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	dir, err := embedFS.ReadDir("images")
 	if err != nil {
@@ -59,7 +59,7 @@ func (routerCtx) GetImages(w http.ResponseWriter, _ *http.Request) {
 	json.NewEncoder(w).Encode(ls)
 }
 
-func (routerCtx) OriginalImage(w http.ResponseWriter, r *http.Request) {
+func (c routerCtx) OriginalImage(w http.ResponseWriter, r *http.Request) {
 	vars := mux.Vars(r)
 	img := vars["image"]
 	b, err := embedFS.ReadFile(path.Join("images", img))

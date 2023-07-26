@@ -7,6 +7,7 @@ namespace App;
 class UninitializedPropertyCheck
 {
     private int $errorsCount;
+    private array $errors;
 
     public function __construct(int $errorsCount)
     {
