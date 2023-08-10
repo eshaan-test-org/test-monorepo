@@ -32,6 +32,6 @@ func main() {
 	}
 }
 
-func (d data) method() {}
+func (data) method() {}
 
 type data struct{}
