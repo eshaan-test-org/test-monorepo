@@ -4,7 +4,7 @@ import "embed"
 
 
 
-
+n = n
 
 
 //go:embed images/*.jpg
