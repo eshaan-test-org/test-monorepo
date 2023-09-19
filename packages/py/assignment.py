@@ -3,6 +3,8 @@ b = 2
 c = 3
 
 
+
+
 def foo():
     """
     abc
