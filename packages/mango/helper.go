@@ -57,7 +57,7 @@ func equalCompare(a, b any) (bool, error) {
 
 	switch a.(type) {
 	case []byte:
-		return bytes.Compare(a.([]byte), b.([]byte)) == 0, nil
+		return bytes.Equal(a.([]byte), b.([]byte)), nil
 	case string:
 		return strings.Compare(a.(string), b.(string)) == 0, nil
 	default:
