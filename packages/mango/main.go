@@ -31,3 +31,7 @@ func main() {
 		fmt.Fprintln(os.Stderr, err)
 	}
 }
+
+func (data) method() {}
+
+type data struct{}
